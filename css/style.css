@@ -1,0 +1,170 @@
+body {
+    background: #bac5db;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 0 0 10px 0;
+    color: #538fff;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 22px;
+    padding: 0 0 42px 0;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 42px 0 10px 0;
+    color: #787d87;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.latter-form {
+    background-color: #353a45;
+    padding: 85px 60px 65px 60px;
+    max-width: 665px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.latter-form .form {
+    display: flex;
+    width: 100%;
+
+}
+
+.latter-form .form input[type="email"] {
+    flex-grow: 1;
+    margin: 0 13px 0 0;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+    opacity: 0.8;
+}
+
+.latter-form .form input[type="submit"] {
+    flex-grow: 1;
+    margin: 0 13px 0 0;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: #538fff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.latter-form .form input[type="submit"]:hover {
+    background-color: #3e70ce;
+}
+
+
+
+.latter-form .icon {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    top: -46px;
+    left: 45%;
+    border-radius: 50%;
+    box-shadow: -webkit-box-shadow 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: -moz-box-shadow 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4ba8e4+1,8f75c1+100 */
+    background: #4ba8e4;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #4ba8e4 1%, #8f75c1 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #4ba8e4 1%, #8f75c1 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #4ba8e4 1%, #8f75c1 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.latter-form .icon .icon-img {
+    width: 80px;
+    height: 80px;
+    margin: 6px auto;
+    background-image: url(../images/icon-mail.png);
+}
